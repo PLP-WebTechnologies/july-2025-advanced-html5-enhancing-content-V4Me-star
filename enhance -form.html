@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Enhanced Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Enhanced Form</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Well-structured Content</h2>
+            
+            <h3>Example List</h3>
+            <p>A list of form features:</p>
+            <ul>
+                <li>Input validation</li>
+                <li>Accessible labels</li>
+                <li>Semantic structure</li>
+            </ul>
+
+            <h3>Example Table</h3>
+            <table border>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>placeholder</code></td>
+                        <td>Hint text</td>
+                    </tr>
+                    <tr>
+                        <td><code>required</code></td>
+                        <td>Validation</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </section>
+
+        <section>
+            <h2> Enhance Form </h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>User Information</legend>
+                    
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="e.g., Wendy Veronica" required autocomplete="username">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required autocomplete="email">
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Enter your comments here..." required></textarea>
+                
+                    <label for="readonly-data">Read-only Field:</label>
+                    <input type="text" id="readonly-data" name="readonly-data" value="This field cannot be changed." readonly>
+                    
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+
+</body>
+</html>
